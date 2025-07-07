@@ -1,10 +1,9 @@
-﻿namespace boadaDP3
+﻿namespace boadaDP3;
+
+public partial class AppShell : Shell
 {
-    public partial class AppShell : Shell
+    public AppShell()
     {
-        public AppShell()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }
